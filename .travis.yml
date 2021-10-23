@@ -15,6 +15,6 @@ script:
 deploy:
     - provider: heroku
       api_key: $HEROKU_API_KEY
-      app: flask-api
+      app: SoftEng
       on:
           branch: master
