@@ -49,3 +49,9 @@ class Pets(Resource):
         This method returns all pets.
         """
         return db.fetch_pets()
+
+
+@api.route('/goodbye')
+class Goodbye(Resource):
+    def get(self):
+        return {'goodbye': 'guy'}

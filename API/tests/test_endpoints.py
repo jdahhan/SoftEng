@@ -13,3 +13,6 @@ class EndpointTestCase(TestCase):
 
     def test_hello(self):
        self.assertTrue(False) 
+
+    def test_goodbye(self):
+        self.assertTrue(False)
